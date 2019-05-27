@@ -1,0 +1,203 @@
+.page-main{
+	background: #F5F5F5 ;
+	width: 100%;
+	height: 1550px;
+	margin-top: 20px;
+}
+.page-main-container{
+	padding-top: 20px;
+	width: 1226px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.phone-title h2{
+	margin: 0;
+	float: left;
+	display: inline-block;
+	width: 300px;
+	font-size: 22px;
+	color: #333333;
+	font-weight: 200;
+	line-height: 58px;
+}
+.phone-more{
+	height: 58px;
+}
+.phone-more a{
+	font-size: 16px;
+	line-height: 58px;
+	display: inline-block;
+	float: right;
+}
+.phone-box{
+	overflow: hidden;
+}
+.phone-box-left{
+	float: left;
+	width: 234px;
+}
+.phone-box-left a img{
+	width: 234px;
+	height: 614px;
+}
+.phone-box-left:hover{
+	box-shadow: 5px 5px 5px #CCCCCC ;
+}
+.phone-box-right{
+	width: 992px;
+	/* height: 614px; */
+	float: left;
+}
+.phone-li{
+	margin: 0 0 14px 14px;
+	background: #FFFFFF;
+	width: 234px;
+	height: 300px;
+}
+.phone-li:hover{
+	box-shadow: 5px 5px 5px #CCCCCC;
+}
+.phone-item{
+	position: relative;
+	padding-top: 2px;
+	background: #FFFFFF;
+	text-align: center;
+}
+.phone-box-right ul{
+	list-style: none;
+}
+.phone-flags{
+	color: #fff;
+	padding: 0 20px;
+}
+.phone-inflag{
+	font-size: 12px;
+	background: #83C44E;
+	padding: 2px 20px;	
+	display: inline-block;
+	width: 28px;
+	margin: 0 auto;
+}
+.phone-inflag-red{
+	font-size: 12px;
+	background: #E53935;
+	padding: 2px 5px;	
+	display: inline-block;
+	width: 60px;
+	margin: 0 auto;
+}
+.phone-item-img{
+	padding: 10px 37px 0;
+}
+.phone-item-img img{
+	width: 160px;
+	height: 160px;
+}
+.phone-item-dis{
+	overflow: hidden;
+	display: inline-block;
+    width: 214px;
+    height: 18px !important;
+    font-size: 12px;
+    color: #B0B0B0;
+    text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.jiadian-m{
+	height: 61px;
+}
+.jiadian-m ul{
+	list-style: none;
+}
+.jiadian-m ul li{
+	color: #424242;
+	font-size: 16px;
+	margin-left: 30px;
+	line-height: 58px;
+	float: right;
+}
+.jiadian-m ul li:hover{
+	color: #FF6700;
+	border-bottom: 3px solid #FF6700;
+}
+.jiadian-box-left{
+	float: left;
+	width: 234px;
+}
+
+.jiadian-box-left a img{
+	width: 234px;
+	height: 300px;
+}
+.phone-li-s{
+	margin: 0 0 14px 14px;
+	background: #FFFFFF;
+	width: 234px;
+	height: 143px;
+}
+.phone-item-s{
+	padding-top: 2px;
+	background: #FFFFFF;
+	text-align: left;
+	position: relative;
+}
+.phone-item-img-s{
+	float: right;
+	width: 80px;
+	height: 80px;
+}
+.phone-item-img-s img{
+	margin-top: 20px;
+	width: 80px;
+	height: 80px;
+}
+.phone-li-s:hover{
+	box-shadow: 5px 5px 5px #CCCCCC;
+}
+.item-s-you img{
+	position: absolute;
+	z-index: 999;
+	top: 20px;
+	right: 10px;
+}
+.item-img-s-you{
+	width: 48px;
+	height: 48px;
+}
+.item-s-you{
+	position: absolute;
+	top: 40px;
+	right: 20px;
+}
+.item-comment{
+	display:none;
+	background: #ff6700;
+	font-size: 12px ;
+	color: #FFFFFF;
+	width: 234px;
+	height: 73px;
+	position: absolute;
+	top: 227px;
+	z-index: 999;
+}
+#comment1:hover #comment1-1{
+	display: block !important;
+}
+#comment2:hover #comment2-2{
+	display: block !important;
+}
+#comment3:hover #comment3-3{
+	display: block !important;
+}
+#comment4:hover #comment4-4{
+	display: block !important;
+}
+#comment5:hover #comment5-5{
+	display: block !important;
+}
+#comment6:hover #comment6-6{
+	display: block !important;
+}
+#comment7:hover #comment7-7{
+	display: block !important;
+}

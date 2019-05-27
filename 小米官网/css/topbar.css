@@ -1,0 +1,156 @@
+.topbar {
+	z-index: 30;
+	height: 40px;
+	font-size: 12px;
+	color: #b0b0b0;
+	background: #333;
+}
+
+.container {
+	/* height: 40px; */
+	width: 1226px;
+	*zoom: 1;
+	margin-right: auto;
+	margin-left: auto;
+}
+.topbar-nav{
+	width: 800px;
+}
+.topbar-nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.topbar-nav li {
+	padding-right: 7px;
+	float: left;
+	/* margin-right: 10px; */
+}
+
+.topbar-nav li a {
+	line-height: 40px;
+	color: #B0B0B0;
+	padding-right: 7px;
+	border-right: 1px solid #424242;
+}
+.topbar-nav li a:hover{
+	color: #FFFFFF;
+}
+.topbar-nav li:last-child>a {
+	border-right: none;
+}
+
+.app {
+	background-color: #FFFFFF;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 124px;
+	text-align: center;
+	box-shadow: rgb(170, 170, 170) 0px 1px 5px;
+	left: 50%;
+	margin-left: -62px;
+	display: none; 
+	z-index: 999;
+}
+
+.app>p {
+	font-size: 16px;
+}
+
+.app img {
+	width: 85%;
+	padding-top: 20px;
+}
+
+.app-link:hover .app {
+	display: block;
+}
+
+.app-link {
+	position: relative;
+
+}
+
+.arrow {
+	/* 不要内容，只要边框，可以做出箭头 */
+	border: 10px solid transparent;
+	position: absolute;
+	border-bottom-color: #FFFFFF;
+	left: 0;
+	right: 0;
+	width: 0;
+	margin: 0 auto;
+	top: -20px;
+}
+.topbar-info{
+	line-height: 40px;
+	float: right;
+}
+
+.topbar-info ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+.topbar-info ul li{
+	float: left;
+	padding-right: 7px;
+
+}
+.topbar-info li a {
+	line-height: 40px;
+	color: #B0B0B0;
+	padding-right: 7px;
+}
+.topbar-info li a:hover{
+	color: #FFFFFF;
+}
+.topbar-info li:last-child>a {
+	border-right: none;
+}
+.topbar-cart{
+	float: right;
+	height: 40px;
+	position: relative;
+}
+.cart-mini{
+	color: #B0B0B0;
+	display: block;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #424242;
+}
+.cart-logo{
+	display: inline-block;
+	float: left;
+	position: absolute;
+	left: 15px;
+	top: 10px;
+	width: 20px;
+	height: 20px;
+}
+.cart-box{
+	padding: 0 50px;
+	right: 0;
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	background: #FFFFFF;
+	box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+	display: none;
+	z-index: 999;
+}
+.cart-box span{
+	line-height: 100px;
+	display: inline-block;
+	margin: 0 auto;
+}
+.topbar-cart:hover .cart-box{
+	display: block;
+}
+.topbar-cart:hover .cart-mini{
+	background: #FFFFFF;
+}
