@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<title></title>
+		<style type="text/css">
+			html {
+				font-size: 50px;
+			}
+			
+			img {
+				width: 100%;
+			}
+			
+			body {
+				font-size: 16px;
+			}
+			
+			p {
+				margin-block-start: 0;
+				margin-block-end: 0;
+				margin-inline-start: 0px;
+				margin-inline-end: 0px;
+			}
+			@media screen and (max-width: 374px) {
+				html {
+					font-size: 40px;
+				}
+			}
+			
+			@media screen and (min-width: 376px) and (max-width: 414px) {
+				html {
+					font-size: 60px;
+				}
+			}
+			
+			@media screen and (min-width: 768px) and (max-width: 1023px) {
+				html {
+					font-size: 100px;
+				}
+			}
+			
+			
+			.wrapper{
+				margin: 1rem .3rem 0;
+			}
+			.nh-box{
+				border: 1px solid #CCCCCC;
+				border-radius: 5px;
+				padding-bottom: .33rem;
+			}
+			.gift-info{
+				padding: .4rem .3rem;
+			}
+			.gift-info p{
+				font-size: .28rem;
+				color: #656565;
+			}
+			.zengyan{
+				padding: .22rem 0 .3rem;
+			}
+			.zengyan textarea{
+				border: none;
+				border-radius: 5px;
+				background: rgb(248,248,248);
+				width: 6.9rem;
+				height: 2.4rem;
+			}
+			#zengs{
+				width: 100%;
+				background-color: #9de49c;
+				/* Green */
+				border: none;
+				color: white;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				padding: .2rem 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="nh-gift">
+				<img src="img/nianhui-gift.png" >
+				<div class="nh-box">
+					<ul>
+						<li>
+							<div class="gift-info">
+								<p class="fl" style="width: 49%;">礼盒价格</p>
+								<p class="fr" style="width: 49%; text-align: end;">198元</p>
+							</div>
+						</li>
+						<li>
+							<div class="gift-info">
+								<p class="fl" style="width: 49%;">盒内物品</p>
+								<p class="fr" style="width: 49%; text-align: end;">52件</p>
+							</div>
+						</li>
+						<li>
+							<div class="gift-info">
+								<p class="fl" style="width: 49%;">礼品总价值</p>
+								<p class="fr" style="width: 49%; text-align: end;">3000~5000元</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="zengyan">
+				<p style="margin-bottom: .22rem; font-size: .24rem; color: #576b95;">你的赠言</p>
+				<textarea rows="5" cols="">
+					
+				</textarea>
+			</div>
+			<button id="zengs" type="button">赠送</button>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+		<title>购买礼盒</title>
+		<style type="text/css">
+			html {
+				font-size: 50px;
+			}
+
+			img {
+				width: 100%;
+			}
+
+			body {
+				font-size: 16px;
+			}
+
+			p {
+				margin-block-start: 0;
+				margin-block-end: 0;
+				margin-inline-start: 0px;
+				margin-inline-end: 0px;
+			}
+
+			.wrapper {
+				margin: 0 .5rem;
+				padding-top: .37rem;
+			}
+
+			.lh-a1 {
+				float: left;
+				font-size: .28rem;
+			}
+
+			.lh-a2 {
+				float: right;
+				font-size: .24rem;
+				color: #656565 !important;
+			}
+
+			.lhbz-main {}
+
+			.main-img1 {
+				margin: .38rem 1.57rem 0;
+			}
+
+			.main-img2 {
+				padding-top: .38rem;
+				padding-left: 45%;
+				padding-right: 45%;
+				width: 10%;
+
+			}
+
+			.main-img2 img {
+				width: .66rem;
+			}
+
+			.hnlp {
+				margin-top: .5rem;
+			}
+
+			.hnlp-head2 {
+				padding-top: .22rem;
+			}
+
+			.gift-box {
+
+				position: relative;
+				border: 1px solid #CCCCCC;
+				border-radius: 3px;
+				margin-top: .1rem;
+				padding-top: .2rem;
+				width: 3rem
+			}
+
+			.gift-item ul li:nth-child(odd) {
+				margin-right: .2rem;
+			}
+
+			.gift-item ul li:nth-child(even) {
+				margin-left: .2rem;
+			}
+
+			.pinzhi {
+				font-size: .3rem;
+			}
+
+			.price {
+				color: #656565;
+				font-size: .48rem;
+			}
+
+			.value {
+				font-size: .2rem;
+				color: #878787;
+			}
+
+			.box-top {
+				border-bottom: 1px solid #CCCCCC;
+			}
+
+			.box-top p {
+				line-height: .48rem;
+			}
+
+			.icon-jia {
+				padding: .1rem 45% .1rem;
+			}
+
+			.icon-jia img {
+				width: .32rem;
+			}
+
+			.box-logo {
+				position: absolute;
+				top: .3rem;
+				right: .2rem;
+
+
+				width: .58rem;
+				height: .5rem;
+			}
+
+			.foot {
+				display: flex;
+				padding: .22rem 0;
+			}
+
+			.buy {
+				padding: .22rem .6rem;
+				border-top: 1px solid #CCCCCC;
+			}
+
+			.buy-left {
+				float: left;
+				width: 45%;
+			}
+
+			.buy-left p {
+				width: 3rem;
+			}
+
+			.buy-right {
+				float: right;
+				width: 45%;
+				position: relative;
+			}
+
+			.buy-right button {
+				position: absolute;
+				top: .1rem;
+				right: .3rem;
+				padding: .2rem .45rem;
+				background-color: #4CAF50;
+				/* Green */
+				border: none;
+				color: white;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+			}
+
+			@media screen and (max-width: 374px) {
+				html {
+					font-size: 40px;
+				}
+			}
+
+			@media screen and (min-width: 376px) and (max-width: 414px) {
+				html {
+					font-size: 60px;
+				}
+			}
+
+			@media screen and (min-width: 768px) and (max-width: 1023px) {
+				html {
+					font-size: 100px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="lhbz">
+				<div class="lhbz-head clearfix">
+					<a class="lh-a1" href=""><i class="iconfont icon-gift" style="font-size: .28rem;"></i>礼盒包装</a>
+					<a class="lh-a2" href="">赠礼须知</a>
+				</div>
+				<div class="lhbz-main">
+					<div class="main-img1">
+						<img src="img/big-gft.png">
+					</div>
+					<div class="main-img2">
+						<img src="img/icon_shuaxin.png">
+					</div>
+				</div>
+			</div>
+			<div class="hnlp clearBoth clearfix">
+				<div class="lhbz-head">
+					<p style="display: inline-block;"><a class="lh-a1" href=""><i class="iconfont icon-gift" style="font-size: .28rem;"></i>礼盒包装</a></p>
+				</div>
+				<div class="hnlp-head2 clearfix">
+					<a style="float: left; font-size: .24rem;" href="">已选数量</a>
+					<a style="float: right; font-size: .24rem;" href="">幸运礼品：iPhone X <input style="width: .24rem;" type="image" src="img/green-tanhao.png" /></a>
+				</div>
+				<div class="gift-item">
+					<ul>
+						<li class="fl ">
+							<div class="gift-box ">
+								<img class="box-logo" src="img/icon_vip_1.png">
+								<div class="box-top">
+									<p class="pinzhi" style="color: #bcbcbc;">1级品质</p>
+									<p class="price">18 <span style="font-size: .24rem;">元</span></p>
+									<p class="value">（价值10-30元）</p>
+								</div>
+								<div class="box-bottom">
+									<div class="icon-jia">
+										<img src="img/icon_+.png">
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="fl ">
+							<div class="gift-box">
+								<img class="box-logo" src="img/icon_vip_2.png">
+								<div class="box-top">
+									<p class="pinzhi" style="color: #c9b371;">2级品质</p>
+									<p class="price">18 <span style="font-size: .24rem;">元</span></p>
+									<p class="value">（价值10-30元）</p>
+								</div>
+								<div class="box-bottom">
+									<div class="icon-jia">
+										<img src="img/icon_+.png">
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="fl ">
+							<div class="gift-box ">
+								<img class="box-logo" src="img/icon_vip_3.png">
+								<div class="box-top">
+									<p class="pinzhi" style="color: #c6cee6;">3级品质</p>
+									<p class="price">18 <span style="font-size: .24rem;">元</span></p>
+									<p class="value">（价值10-30元）</p>
+								</div>
+								<div class="box-bottom">
+									<div class="icon-jia">
+										<img src="img/icon_+.png">
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="fl">
+							<div class="gift-box">
+								<img class="box-logo" src="img/icon_vip_4.png">
+								<div class="box-top">
+									<p class="pinzhi" style="color: #ffde27;">4级品质</p>
+									<p class="price">18 <span style="font-size: .24rem;">元</span></p>
+									<p class="value">（价值10-30元）</p>
+								</div>
+								<div class="box-bottom">
+									<div class="icon-jia">
+										<img src="img/icon_+.png">
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="fl ">
+							<div class="gift-box ">
+								<img class="box-logo" src="img/icon_vip_5.png">
+								<div class="box-top">
+									<p class="pinzhi" style="color: #4cdff1;">5级品质</p>
+									<p class="price">18 <span style="font-size: .24rem;">元</span></p>
+									<p class="value">（价值10-30元）</p>
+								</div>
+								<div class="box-bottom">
+									<div class="icon-jia">
+										<img src="img/icon_+.png">
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="fl">
+							<div class="gift-box">
+								<img class="box-logo" src="img/icon_vip_6.png">
+								<div class="box-top">
+									<p class="pinzhi" style="color: #5c4cf1;">6级品质</p>
+									<p class="price">18 <span style="font-size: .24rem;">元</span></p>
+									<p class="value">（价值10-30元）</p>
+								</div>
+								<div class="box-bottom">
+									<div class="icon-jia">
+										<img src="img/icon_+.png">
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="fl ">
+							<div class="gift-box ">
+								<img class="box-logo" src="img/icon_vip_7.png">
+								<div class="box-top">
+									<p class="pinzhi" style="color: #c44cf1;">7级品质</p>
+									<p class="price">18 <span style="font-size: .24rem;">元</span></p>
+									<p class="value">（价值10-30元）</p>
+								</div>
+								<div class="box-bottom">
+									<div class="icon-jia">
+										<img src="img/icon_+.png">
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="fl">
+							<div class="gift-box">
+								<img class="box-logo" src="img/icon_vip_8.png">
+								<div class="box-top">
+									<p class="pinzhi" style="color: #f14ce3;">8级品质</p>
+									<p class="price">18 <span style="font-size: .24rem;">元</span></p>
+									<p class="value">（价值10-30元）</p>
+								</div>
+								<div class="box-bottom">
+									<div class="icon-jia">
+										<img src="img/icon_+.png">
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+			<div class="foot">
+				<p style="font-size: .22rem; color: #878787; text-align: center;">*暂不支持收货地区：新疆，西藏，青海，港澳台</p>
+			</div>
+		</div>
+		<div class="buy clearfix">
+			<div class="buy-left">
+				<p style="font-size: .22rem; color: #878787;">共9件商品</p>
+				<p style="font-size: .42rem; color: #333333;">￥0.00</p>
+			</div>
+			<div class="buy-right">
+				<button type="button">购买</button>
+			</div>
+		</div>
+	</body>
+</html>
